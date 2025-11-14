@@ -1,0 +1,14 @@
+# Exclude everything in .claude except commands
+.claude/*
+!.claude/commands
+
+# Exclude everything in .codex except prompts
+.codex/*
+!.codex/prompts
+
+# Exclude everything in .cursor except commands
+.cursor/*
+!.cursor/commands
+
+# MCP files
+.mcp.json
