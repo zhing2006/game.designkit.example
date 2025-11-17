@@ -10,5 +10,9 @@
 .cursor/*
 !.cursor/commands
 
+# Exclude everything in .kilocode
+.kilocode/*
+!.kilocode/workflows
+
 # MCP files
 .mcp.json
